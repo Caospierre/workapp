@@ -1,5 +1,6 @@
 package pp.facerecognizer;
 
+import android.content.Intent;
 import android.os.Bundle;
 import androidx.annotation.NonNull;
 
@@ -102,7 +103,9 @@ public class TempActivity extends AppCompatActivity {
                     }
 
                 }else if (id == R.id.menu_deleta){
-                    if(!(edtTelf.getText().toString().isEmpty()&& edtNome.getText().toString().isEmpty()))
+                    int mode=0;
+
+                    if(!(edtTelf.getText().toString().isEmpty()&& edtNome.getText().toString().isEmpty())&&mode==1)
                     {
                         Person p = new Person();
                         p.setUid(pessoaSelecionada.getUid());
@@ -112,7 +115,12 @@ public class TempActivity extends AppCompatActivity {
                     }
                     else
                     {
-
+                        Intent intent =new Intent(TempActivity.this, MainActivity.class);
+                        //Intent intent = new Intent("android.media.action.IMAGE_CAPTURE");
+                        startActivity(intent);
+                        Toast.makeText(TempActivity.this,"Presione + Para Agregar Rostros", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(TempActivity.this,"Presione Camara Para Tomar Fotos", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(TempActivity.this,"Presione Botones Volumen para DATA STATUS", Toast.LENGTH_SHORT).show();
                     }
                 }
 

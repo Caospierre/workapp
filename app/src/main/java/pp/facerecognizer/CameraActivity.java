@@ -18,6 +18,7 @@ package pp.facerecognizer;
 
 import android.Manifest;
 import android.content.Context;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.hardware.camera2.CameraAccessException;
 import android.hardware.camera2.CameraCharacteristics;
@@ -89,9 +90,9 @@ public abstract class CameraActivity extends AppCompatActivity
         buttonchange.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(CameraActivity.this,"ENTRO", Toast.LENGTH_SHORT).show();
-                interChangeCamera();
-                //btnSignUpClick(v);
+
+                Intent intent = new Intent("android.media.action.IMAGE_CAPTURE");
+                startActivity(intent);
             }
         });
     }

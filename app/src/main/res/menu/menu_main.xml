@@ -10,9 +10,10 @@
         android:title="Actualiza"
         android:icon="@drawable/ic_atualiza"
         app:showAsAction="always"/>
-    <item android:id="@+id/menu_deleta"
-        android:title="Eliminar"
-        android:icon="@drawable/ic_deleta"
-        app:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_deleta"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:title="Rostro"
+        app:showAsAction="always" />
 
 </menu>

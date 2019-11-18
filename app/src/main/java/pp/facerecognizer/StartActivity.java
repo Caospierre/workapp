@@ -62,7 +62,7 @@ public class StartActivity extends AppCompatActivity {
         this.btnSignUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent =new Intent(StartActivity.this, MainActivity.class);
+                Intent intent = new Intent("android.media.action.IMAGE_CAPTURE");
                 startActivity(intent);
                 //btnSignUpClick(v);
             }
@@ -104,7 +104,6 @@ public class StartActivity extends AppCompatActivity {
                         else
                         {
                             users.child(user.getName()).setValue(user);
-                            System.out.println("USUARIO REGISTRADO EXITOSAMENTE");
                             Toast.makeText(StartActivity.this,"USUARIO REGISTRADO EXITOSAMENTE", Toast.LENGTH_SHORT).show();
                         }
                     }
@@ -183,7 +182,7 @@ public class StartActivity extends AppCompatActivity {
                 for (DataSnapshot objSnapshot:dataSnapshot.getChildren()){
                     Person p =  objSnapshot.getValue(Person.class);
                     StartActivity.ListPerson.add(p);
-                    Toast.makeText(StartActivity.this,"Data"+String.valueOf(StartActivity.ListPerson.size()), Toast.LENGTH_SHORT).show();
+
                 }
             }
 
