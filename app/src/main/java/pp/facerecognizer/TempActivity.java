@@ -77,9 +77,9 @@ public class TempActivity extends AppCompatActivity {
                         p.setSickness(edtenfermedades.getText().toString());
                         p.setTakeMedicine(edtmedicamento.getText().toString());
                         databaseReference.child(p.getClass().getSimpleName()).child(p.getUid()).setValue(p);
-                       // classifier=new Classifier();
-                        //int idx = classifier.addPerson(edtNome.getText().toString());
-
+                        classifier=new Classifier();
+                        classifier=new Classifier();
+                        int idx = classifier.addPerson(edtNome.getText().toString());
                         limparCampos();
 
                     }else
