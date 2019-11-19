@@ -52,7 +52,7 @@ import pp.facerecognizer.env.Logger;
 public abstract class CameraActivity extends AppCompatActivity
         implements OnImageAvailableListener {
     private static final Logger LOGGER = new Logger();
-    private FloatingActionButton buttonchange;
+    private FloatingActionButton buttonchange,buttonichange;
     private static final int PERMISSIONS_REQUEST = 1;
     CameraConnectionFragment camera2Fragment;
     private static final String PERMISSION_CAMERA = Manifest.permission.CAMERA;
@@ -86,6 +86,7 @@ public abstract class CameraActivity extends AppCompatActivity
         } else {
             requestPermission();
         }
+
         buttonchange = findViewById(R.id.change_cam);
         buttonchange.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -95,6 +96,7 @@ public abstract class CameraActivity extends AppCompatActivity
                 startActivity(intent);
             }
         });
+
     }
 
     protected int[] getRgbBytes() {

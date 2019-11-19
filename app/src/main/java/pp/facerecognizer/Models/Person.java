@@ -6,6 +6,7 @@ public class Person {
     private String uid;
     private String nome;
     private String dir;
+    private String cedula;
     private String sickness;
     private String telf;
     private String bloodtype;
@@ -54,6 +55,12 @@ public class Person {
     public String isTakeMedicine() { return takeMedicine;   }
 
     public void setTakeMedicine(String takeMedicine) { this.takeMedicine = takeMedicine; }
+
+    public String getCedula() { return cedula;
+    }
+
+    public void setCedula(String cedula) {this.cedula = cedula;
+    }
 
     @Override
     public String toString() {

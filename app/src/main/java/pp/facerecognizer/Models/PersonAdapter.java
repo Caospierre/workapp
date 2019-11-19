@@ -14,6 +14,7 @@ import pp.facerecognizer.R;
 public class PersonAdapter extends BaseAdapter {
     Context myContext,tempContext;
     ArrayAdapter<Person> listEmp;
+    public static ArrayAdapter<Person> listTem;
     ImageButton btnCall;
   //  Persona person;
     int []ind;
@@ -21,6 +22,7 @@ public class PersonAdapter extends BaseAdapter {
     public PersonAdapter(Context myContext , ArrayAdapter<Person> listEmp) {
         this.myContext = myContext;
         this.listEmp = listEmp;
+        PersonAdapter.listTem=listEmp;
         this.ind=new int[listEmp.getCount()];
     }
     @Override
@@ -46,7 +48,8 @@ public class PersonAdapter extends BaseAdapter {
         TextView txtTelf=convertView.findViewById(R.id.et_itpTelf);
         TextView txtBlood=convertView.findViewById(R.id.et_itpblood);
         TextView txtSick=convertView.findViewById(R.id.et_itpsick);
-        TextView txtMedicine=convertView.findViewById(R.id.et_itptmedicine);
+        TextView txtMedicine=convertView.findViewById(R.id.et_itpmed);
+        TextView txtci=convertView.findViewById(R.id.et_itpCi);
         final Person person1 =listEmp.getItem(position);
         this.ind[i]=i;
         txtDir.setText(person1.getDir());
@@ -55,6 +58,7 @@ public class PersonAdapter extends BaseAdapter {
         txtSick.setText(person1.getSickness());
         txtMedicine.setText(person1.isTakeMedicine());
         txtBlood.setText(person1.getBloodtype());
+        txtci.setText(person1.getCedula());
         return convertView;
     }
 }

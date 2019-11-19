@@ -413,7 +413,7 @@ public class CameraConnectionFragment extends Fragment {
         final Activity activity = getActivity();
         final CameraManager manager = (CameraManager) activity.getSystemService(Context.CAMERA_SERVICE);
         try {
-             MainActivity.ModeCamera=1;
+
              this.setCamera(manager.getCameraIdList () [ MainActivity.ModeCamera]);
         } catch (CameraAccessException e) {
             e.printStackTrace();

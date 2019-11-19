@@ -64,6 +64,7 @@ public class StartActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent("android.media.action.IMAGE_CAPTURE");
                 startActivity(intent);
+                //metodo para Registrar USUARIOS (NOMBRE ,EMAIL, CONTRASEÑA)
                 //btnSignUpClick(v);
             }
         });
@@ -144,7 +145,13 @@ public class StartActivity extends AppCompatActivity {
                         {
                             Intent intent =new Intent(StartActivity.this, TempActivity.class);
                             startActivity(intent);
+
                             Toast.makeText(StartActivity.this,"INGRESO EXITOSO", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(StartActivity.this,"Presione buscar Para Buscar Por Cedula", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(StartActivity.this,"Presione Agregar Para Agregar Paciente", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(StartActivity.this,"Presione Actualizar  para Actualizar Paciente", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(StartActivity.this,"Presione Frontal o Posterior para Registrar Rostro", Toast.LENGTH_SHORT).show();
+
                         }
                         else
                         {

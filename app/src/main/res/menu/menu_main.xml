@@ -2,18 +2,29 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <item android:id="@+id/menu_novo"
-        android:title="Nuevo"
+    <item
+        android:id="@+id/menu_novo"
         android:icon="@drawable/ic_novo"
-        app:showAsAction="always"/>
+        android:title="Nuevo"
+        app:showAsAction="always" />
     <item android:id="@+id/menu_atualiza"
-        android:title="Actualiza"
+        android:title="Actualizar"
         android:icon="@drawable/ic_atualiza"
         app:showAsAction="always"/>
     <item
-        android:id="@+id/menu_deleta"
-        android:icon="@android:drawable/ic_menu_camera"
+        android:id="@+id/menu_search"
+        android:icon="@android:drawable/ic_search_category_default"
         android:title="Rostro"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_camfront"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:title="Frontal"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_campost"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:title="Posterior"
         app:showAsAction="always" />
 
 </menu>
