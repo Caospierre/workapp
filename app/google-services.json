@@ -1,42 +1,42 @@
 {
   "project_info": {
-    "project_number": "379954351351",
-    "firebase_url": "https://recognizer-app.firebaseio.com",
-    "project_id": "recognizer-app",
-    "storage_bucket": "recognizer-app.appspot.com"
+    "project_number": "1092306637675",
+    "firebase_url": "https://sistemabiometrico-d09da.firebaseio.com",
+    "project_id": "sistemabiometrico-d09da",
+    "storage_bucket": "sistemabiometrico-d09da.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:379954351351:android:b490ae6fede6cfffcd97f2",
+        "mobilesdk_app_id": "1:1092306637675:android:a1cac84c560d2b6695b22e",
         "android_client_info": {
-          "package_name": "pp.facerecognizer"
+          "package_name": "app.recognizerface"
         }
       },
       "oauth_client": [
         {
-          "client_id": "379954351351-i7suht6em142fmjmlahatmo3epl492j2.apps.googleusercontent.com",
+          "client_id": "1092306637675-6atngipop1rahfmks1rjp616r78vvodf.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "pp.facerecognizer",
+            "package_name": "app.recognizerface",
             "certificate_hash": "8346876cd9ddf96cbc41d83224d3b57776bbc0b8"
           }
         },
         {
-          "client_id": "379954351351-93cio6tollsr2snj2n6v0325o5s0tnq8.apps.googleusercontent.com",
+          "client_id": "1092306637675-s4kgf2p7a59djq5nk1h87o4v0t14a4lf.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCEH7FsIx4dGzr_l8VE2WYsEvB9ehsXz2Y"
+          "current_key": "AIzaSyApc-SLwWJBMwF3zcgl89FulJ0F4EIm4r0"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "379954351351-93cio6tollsr2snj2n6v0325o5s0tnq8.apps.googleusercontent.com",
+              "client_id": "1092306637675-s4kgf2p7a59djq5nk1h87o4v0t14a4lf.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
