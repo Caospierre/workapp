@@ -8,22 +8,22 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1092306637675:android:a1cac84c560d2b6695b22e",
+        "mobilesdk_app_id": "1:379954351351:android:b490ae6fede6cfffcd97f2",
         "android_client_info": {
           "package_name": "app.recognizerface"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1092306637675-6atngipop1rahfmks1rjp616r78vvodf.apps.googleusercontent.com",
+          "client_id": "379954351351-i7suht6em142fmjmlahatmo3epl492j2.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "app.recognizerface",
+            "package_name": "pp.facerecognizer",
             "certificate_hash": "8346876cd9ddf96cbc41d83224d3b57776bbc0b8"
           }
         },
         {
-          "client_id": "1092306637675-s4kgf2p7a59djq5nk1h87o4v0t14a4lf.apps.googleusercontent.com",
+          "client_id": "379954351351-93cio6tollsr2snj2n6v0325o5s0tnq8.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
