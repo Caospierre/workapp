@@ -13,7 +13,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-package pp.recognizerface.tracking;
+package pp.facerecognizer.tracking;
 
 import android.graphics.Canvas;
 import android.graphics.Color;
@@ -32,8 +32,8 @@ import java.util.Vector;
 
 import javax.microedition.khronos.opengles.GL10;
 
-import pp.recognizerface.env.Logger;
-import pp.recognizerface.env.Size;
+import pp.facerecognizer.env.Logger;
+import pp.facerecognizer.env.Size;
 
 /**
 

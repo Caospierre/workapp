@@ -13,7 +13,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-package pp.recognizerface.tracking;
+package pp.facerecognizer.tracking;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -33,10 +33,10 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-import pp.recognizerface.Classifier.Recognition;
-import pp.recognizerface.env.BorderedText;
-import pp.recognizerface.env.ImageUtils;
-import pp.recognizerface.env.Logger;
+import pp.facerecognizer.Classifier.Recognition;
+import pp.facerecognizer.env.BorderedText;
+import pp.facerecognizer.env.ImageUtils;
+import pp.facerecognizer.env.Logger;
 
 /**
  * A tracker wrapping ObjectTracker that also handles non-max suppression and matching existing

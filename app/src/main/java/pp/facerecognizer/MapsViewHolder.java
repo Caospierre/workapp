@@ -1,4 +1,4 @@
-package pp.recognizerface;
+package pp.facerecognizer;
 
 
 import android.view.View;
@@ -8,7 +8,7 @@ import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-import pp.recognizerface.Interface.ItemClickListener;
+import pp.facerecognizer.Interface.ItemClickListener;
 
 public class MapsViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
     public TextView mapName;

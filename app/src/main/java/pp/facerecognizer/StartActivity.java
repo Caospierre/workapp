@@ -1,4 +1,4 @@
-package pp.recognizerface;
+package pp.facerecognizer;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -20,8 +20,8 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-import pp.recognizerface.Models.Person;
-import pp.recognizerface.Models.User;
+import pp.facerecognizer.Models.Person;
+import pp.facerecognizer.Models.User;
 
 import com.rengwuxian.materialedittext.MaterialEditText;
 

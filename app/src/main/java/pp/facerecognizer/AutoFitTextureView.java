@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package pp.recognizerface;
+package pp.facerecognizer;
 
 import android.content.Context;
 import android.util.AttributeSet;

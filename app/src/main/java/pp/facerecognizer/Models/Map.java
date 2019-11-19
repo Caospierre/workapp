@@ -1,4 +1,4 @@
-package pp.recognizerface.Models;
+package pp.facerecognizer.Models;
 
 public class Map {
     private String name,image;

@@ -1,4 +1,4 @@
-package pp.recognizerface.wrapper;
+package pp.facerecognizer.wrapper;
 
 import android.text.TextUtils;
 import android.util.Log;
@@ -9,8 +9,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 import androidx.core.util.Pair;
-import pp.recognizerface.Classifier;
-import pp.recognizerface.env.FileUtils;
+import pp.facerecognizer.Classifier;
+import pp.facerecognizer.env.FileUtils;
 
 /**
  * Created by yctung on 9/26/17.

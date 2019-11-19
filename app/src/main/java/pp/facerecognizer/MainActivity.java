@@ -14,7 +14,7 @@
 * limitations under the License.
 */
 
-package pp.recognizerface;
+package pp.facerecognizer;
 
 import android.content.ClipData;
 import android.content.Intent;
@@ -46,11 +46,11 @@ import java.util.List;
 import java.util.Vector;
 
 import androidx.appcompat.app.AlertDialog;
-import pp.recognizerface.env.BorderedText;
-import pp.recognizerface.env.FileUtils;
-import pp.recognizerface.env.ImageUtils;
-import pp.recognizerface.env.Logger;
-import pp.recognizerface.tracking.MultiBoxTracker;
+import pp.facerecognizer.env.BorderedText;
+import pp.facerecognizer.env.FileUtils;
+import pp.facerecognizer.env.ImageUtils;
+import pp.facerecognizer.env.Logger;
+import pp.facerecognizer.tracking.MultiBoxTracker;
 
 /**
 * An activity that uses a TensorFlowMultiBoxDetector and ObjectTracker to detect and then track

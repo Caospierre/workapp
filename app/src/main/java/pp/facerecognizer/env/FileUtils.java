@@ -1,4 +1,4 @@
-package pp.recognizerface.env;
+package pp.facerecognizer.env;
 
 import android.content.res.AssetManager;
 import android.graphics.Bitmap;

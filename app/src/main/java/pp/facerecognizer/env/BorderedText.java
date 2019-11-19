@@ -13,7 +13,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-package pp.recognizerface.env;
+package pp.facerecognizer.env;
 
 import android.graphics.Canvas;
 import android.graphics.Color;

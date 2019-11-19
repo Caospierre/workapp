@@ -1,4 +1,4 @@
-package pp.recognizerface;
+package pp.facerecognizer;
 
 import android.os.Bundle;
 
@@ -15,8 +15,8 @@ import androidx.annotation.Nullable;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import pp.recognizerface.Interface.ItemClickListener;
-import pp.recognizerface.Models.Map;
+import pp.facerecognizer.Interface.ItemClickListener;
+import pp.facerecognizer.Models.Map;
 
 import com.squareup.picasso.Picasso;
 

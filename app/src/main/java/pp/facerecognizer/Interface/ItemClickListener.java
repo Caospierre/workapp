@@ -1,4 +1,4 @@
-package pp.recognizerface.Interface;
+package pp.facerecognizer.Interface;
 
 import android.view.View;
 

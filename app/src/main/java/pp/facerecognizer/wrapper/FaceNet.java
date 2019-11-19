@@ -10,7 +10,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-package pp.recognizerface.wrapper;
+package pp.facerecognizer.wrapper;
 
 import android.content.res.AssetManager;
 import android.graphics.Bitmap;
@@ -27,7 +27,7 @@ import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.nio.FloatBuffer;
 
-import pp.recognizerface.Classifier;
+import pp.facerecognizer.Classifier;
 
 public class FaceNet {
     private static final String MODEL_FILE = "file:///android_asset/facenet.pb";

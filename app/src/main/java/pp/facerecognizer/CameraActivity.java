@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package pp.recognizerface;
+package pp.facerecognizer;
 
 import android.Manifest;
 import android.content.Context;
@@ -46,8 +46,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
-import pp.recognizerface.env.ImageUtils;
-import pp.recognizerface.env.Logger;
+import pp.facerecognizer.env.ImageUtils;
+import pp.facerecognizer.env.Logger;
 
 public abstract class CameraActivity extends AppCompatActivity
         implements OnImageAvailableListener {

@@ -1,4 +1,4 @@
-package pp.recognizerface.Models;
+package pp.facerecognizer.Models;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -9,7 +9,7 @@ import android.widget.BaseAdapter;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
-import pp.recognizerface.R;
+import pp.facerecognizer.R;
 
 public class PersonAdapter extends BaseAdapter {
     Context myContext,tempContext;

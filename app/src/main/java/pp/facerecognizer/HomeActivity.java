@@ -1,4 +1,4 @@
-package pp.recognizerface;
+package pp.facerecognizer;
 
 
 import android.content.Intent;

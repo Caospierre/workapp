@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package pp.recognizerface;
+package pp.facerecognizer;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -59,7 +59,7 @@ import java.util.List;
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
 
-import pp.recognizerface.env.Logger;
+import pp.facerecognizer.env.Logger;
 
 public class CameraConnectionFragment extends Fragment {
     private static final Logger LOGGER = new Logger();

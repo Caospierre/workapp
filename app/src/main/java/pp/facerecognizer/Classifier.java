@@ -13,7 +13,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-package pp.recognizerface;
+package pp.facerecognizer;
 
 import android.content.ContentResolver;
 import android.content.res.AssetManager;
@@ -34,10 +34,10 @@ import java.util.List;
 import androidx.core.util.Pair;
 
 
-import pp.recognizerface.env.FileUtils;
-import pp.recognizerface.wrapper.FaceNet;
-import pp.recognizerface.wrapper.LibSVM;
-import pp.recognizerface.wrapper.MTCNN;
+import pp.facerecognizer.env.FileUtils;
+import pp.facerecognizer.wrapper.FaceNet;
+import pp.facerecognizer.wrapper.LibSVM;
+import pp.facerecognizer.wrapper.MTCNN;
 
 /**
  * Interfaz genérica para interactuar con diferentes motores de reconocimiento.
